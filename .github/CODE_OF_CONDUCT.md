@@ -1,3 +1,6 @@
+<!--
+    https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-code-of-conduct-to-your-project
+-->
 # Contributor Covenant Code of Conduct
 
 ## Our Pledge
