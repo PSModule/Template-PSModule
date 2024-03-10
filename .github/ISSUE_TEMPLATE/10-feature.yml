@@ -1,0 +1,21 @@
+# https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-issue-forms
+# https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-githubs-form-schema
+name: 🚀 [Feature]
+description: Suggest/request a new feature
+title: '🚀[Feature]: '
+labels: ['feature', 'triage']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a new feature. Please provide as much information as possible so we can understand your request better.
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: |
+        Please describe your idea/request
+        Feel free to add suggestions how you would like to see this implemented.
+        Are there alternatives you've considered?
+    validations:
+      required: true

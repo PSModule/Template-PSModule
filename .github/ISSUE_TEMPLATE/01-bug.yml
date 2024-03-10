@@ -10,22 +10,33 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report! Please provide as much information as possible so we can help you quickly.
   - type: textarea
-    id: bug-description
+    id: description
     attributes:
       label: Describe the bug
       description: A clear and concise description of what the bug is vs. what you expected to happen.
     validations:
       required: true
   - type: textarea
-    id: version
+    id: psversion
     attributes:
-      label: Version information
+      label: PowerShell version
       description: |
-        What version are you running of PowerShell and the module?
-        Please run this to and paste the info here:
+        What version are you running of PowerShell?
+        Please run this and paste the info here:
         ```powershell
-        $PSVersionTable
-        Get-InstalledModule -Name 'MyModule' | Select-Object *
+        $PSVersionTable | clip
+        ```
+    validations:
+      required: true
+  - type: textarea
+    id: moduleversion
+    attributes:
+      label: Module version
+      description: |
+        What version are you running of the module?
+        Please run this and paste the info here:
+        ```powershell
+        Get-InstalledModule -Name '>>ModuleName<<' | Select-Object *
         ```
     validations:
       required: true

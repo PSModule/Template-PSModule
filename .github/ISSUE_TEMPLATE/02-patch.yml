@@ -1,0 +1,18 @@
+# For top level: https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-issue-forms
+name: 🩹 [Patch]
+description: Submit a request to improve or change something that already exists
+title: '🩹 [Patch]: '
+labels: ['patch', 'triage']
+# For body: https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-githubs-form-schema
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this issue! Please provide as much information as possible so we can help you quickly.
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the change
+      description: A clear and concise description of what you would want to change.
+    validations:
+      required: true
