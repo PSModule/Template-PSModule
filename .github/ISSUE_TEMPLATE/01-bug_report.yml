@@ -25,7 +25,7 @@ body:
         Please run this to and paste the info here:
         ```powershell
         $PSVersionTable
-        Get-InstalledModule -Name 'MyModule'
+        Get-InstalledModule -Name 'MyModule' | Select-Object *
         ```
     validations:
       required: true
