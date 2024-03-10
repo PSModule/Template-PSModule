@@ -6,10 +6,12 @@
 
 <!-- Use the check-boxes [x] on the options that are relevant. -->
 
-- [ ] Doc update
-- [ ] Bugfix
-- [ ] New feature
-- [ ] Breaking change
+- [ ] 📖 [Doc update]
+- [ ] 🪲 [Bugfix]
+- [ ] 🩹 [Patch]
+- [ ] ⚠️ [Security fix]
+- [ ] 🚀 [Feature]
+- [ ] 🌟 [Breaking change]
 
 ## Checklist
 
