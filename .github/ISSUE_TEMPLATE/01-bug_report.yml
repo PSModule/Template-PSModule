@@ -1,0 +1,54 @@
+# For top level: https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-issue-forms
+name: 🪲 [Bug]
+description: Submit a bug report
+title: '🪲[Bug]: '
+labels: ['bug', 'triage']
+# For body: https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-githubs-form-schema
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report! Please provide as much information as possible so we can help you quickly.
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is vs. what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: version
+    attributes:
+      label: Version information
+      description: |
+        What version are you running of PowerShell and the module?
+        Please run this to and paste the info here:
+        ```powershell
+        $PSVersionTable
+        Get-InstalledModule -Name 'MyModule'
+        ```
+    validations:
+      required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: To reproduce
+      description: Steps to reproduce the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: code-snippet
+    attributes:
+      label: Code snippet
+      description: Add a code snippet to help us understand what you're trying to do.
+      render: powershell
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Relevant output
+      description: Run the command using `-Debug` and `-Verbose` flags and paste the output here.
+      render: Shell
+    validations:
+      required: true
