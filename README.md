@@ -53,21 +53,14 @@ Here is a list of people and projects that helped this project in some way.
 
 ---
 
-| Content 1 | Content 2 | Content 3 | Content 4 |
+| [Code of Conduct](CODE_OF_CONDUCT.md) | [Security Policy](SECURITY.md) | [Support](SUPPORT.md) | [License](LICENSE) |
 |:---------:|:---------:|:---------:|:---------:|
 
-
-- [Code of Conduct](CODE_OF_CONDUCT.md)
-- [Security Policy](SECURITY.md)
-- [Support](SUPPORT.md)
-- [License](LICENSE)
-
-<style>.borderless td, .borderless th {border: none;text-align: center;}</style>
-<table class="borderless">
+<table>
     <tr>
-        <td>Content 1</td>
-        <td>Content 2</td>
-        <td>Content 3</td>
-        <td>Content 4</td>
+        <th width="25%"><a href="https://github.com/PSModule/AzureDevOps">AzureDevOps</a></th>
+        <th width="25%"><a href="https://github.com/PSModule/AzureDevOps">AzureDevOps</a></th>
+        <th width="25%"><a href="https://github.com/PSModule/AzureDevOps">AzureDevOps</a></th>
+        <th width="25%"><a href="https://github.com/PSModule/AzureDevOps">AzureDevOps</a></th>
     </tr>
 </table>
