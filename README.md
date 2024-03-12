@@ -64,3 +64,14 @@ Here is a list of people and projects that helped this project in some way.
         <td style="text-align: center; vertical-align: middle; border: none;"><a href="https://github.com/PSModule/AzureDevOps">AzureDevOps</a></td>
     </tr>
 </table>
+
+<p align="center">
+  <table width="100%" border="0">
+    <tr>
+      <td align="center" width="25%"><a href="LINK1">Link 1</a></td>
+      <td align="center" width="25%"><a href="LINK2">Link 2</a></td>
+      <td align="center" width="25%"><a href="LINK3">Link 3</a></td>
+      <td align="center" width="25%"><a href="LINK4">Link 4</a></td>
+    </tr>
+  </table>
+</p>
