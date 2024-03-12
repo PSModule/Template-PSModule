@@ -58,9 +58,9 @@ Here is a list of people and projects that helped this project in some way.
 
 <table>
     <tr>
-        <th width="100%"><a href="https://github.com/PSModule/AzureDevOps">AzureDevOps</a></th>
-        <th width="100%"><a href="https://github.com/PSModule/AzureDevOps">AzureDevOps</a></th>
-        <th width="100%"><a href="https://github.com/PSModule/AzureDevOps">AzureDevOps</a></th>
-        <th width="100%"><a href="https://github.com/PSModule/AzureDevOps">AzureDevOps</a></th>
+        <td width="100%"><a href="https://github.com/PSModule/AzureDevOps">AzureDevOps</a></td>
+        <td width="100%"><a href="https://github.com/PSModule/AzureDevOps">AzureDevOps</a></td>
+        <td width="100%"><a href="https://github.com/PSModule/AzureDevOps">AzureDevOps</a></td>
+        <td width="100%"><a href="https://github.com/PSModule/AzureDevOps">AzureDevOps</a></td>
     </tr>
 </table>
