@@ -16,14 +16,31 @@ Install-Module -Name YourModuleName
 
 ## Usage
 
+Here is a list of example that are typical use cases for the module.
+This section should provide a good overview of the module's capabilities.
 
+### Example 1
 
-### Exampl
 Provide examples for typical commands that a user would like to do with the module.
 
 ```powershell
 Import-Module -Name PSModuleTemplate
 ```
+
+### Example 2
+
+Provide examples for typical commands that a user would like to do with the module.
+
+```powershell
+Import-Module -Name PSModuleTemplate
+```
+
+### Find more examples
+
+To find more examples of how to use the module, please refer to the [examples](examples) folder.
+
+Alternatively, you can use the Get-Command -Module 'This module' to find more commands that are available in the module.
+To find examples of each of the commands you can use Get-Help -Examples 'CommandName'.
 
 ## Documentation
 
