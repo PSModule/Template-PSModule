@@ -1,16 +1,12 @@
 # PSModuleTemplate
 
-<!--
 Add a short description about the module and the project.
--->
 
-## Getting Started
-
-### Prerequisites
+## Prerequisites
 
 List any prerequisites needed to use the module, such as PowerShell versions, additional modules, or permissions.
 
-### Installation
+## Installation
 
 Provide step-by-step instructions on how to install the module, including any InstallModule commands or manual installation steps.
 
@@ -18,8 +14,11 @@ Provide step-by-step instructions on how to install the module, including any In
 Install-Module -Name YourModuleName
 ```
 
-### Usage
+## Usage
 
+
+
+### Exampl
 Provide examples for typical commands that a user would like to do with the module.
 
 ```powershell
@@ -33,25 +32,48 @@ the module's functions and features.
 
 ## Contributing
 
+Coder or not, you can contribute to the project! We welcome all contributions.
+
 ### For Users
-Encourage feedback and provide links or instructions on how users can report issues, request features, or ask questions.
+
+If you don't code, you still sit on valuable information that can make this project even better. If you experience that the
+product does unexpected things, throw errors or is missing functionality, you can help by submitting bugs and feature requests.
+Please see the issues tab on this project and submit a new issue that matches your needs.
 
 ### For Developers
 
-Provide instructions on how to contribute to the module, including how to set up a development environment, run tests, and submit pull requests.
-
-### Contribution Guidelines
-
-If you would like to contribute, please see the [CONTRIBUTING.md](CONTRIBUTING.md) file for more information.
-
-
-## Roadmap
+If you do code, we'd love to have your contributions. Please read the [Contribution guidelines](CONTRIBUTING.md) for more information.
+You can either help by picking up an existing issue or submit a new one if you have an idea for a new feature or improvement.
 
 ## Acknowledgements
 
+Here is a list of people and projects that helped this project in some way.
+
+- [Project 1]()
+
 ---
+
+| Content 1 | Content 2 | Content 3 | Content 4 |
+|:---------:|:---------:|:---------:|:---------:|
+
 
 - [Code of Conduct](CODE_OF_CONDUCT.md)
 - [Security Policy](SECURITY.md)
 - [Support](SUPPORT.md)
 - [License](LICENSE)
+
+<style>
+    .borderless td, .borderless th {
+        border: none;
+        text-align: center;
+    }
+</style>
+
+<table class="borderless">
+    <tr>
+        <td>Content 1</td>
+        <td>Content 2</td>
+        <td>Content 3</td>
+        <td>Content 4</td>
+    </tr>
+</table>
