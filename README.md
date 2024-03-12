@@ -56,9 +56,7 @@ Here is a list of people and projects that helped this project in some way.
 | [Code of Conduct](CODE_OF_CONDUCT.md) | [Security Policy](SECURITY.md) | [Support](SUPPORT.md) | [License](LICENSE) |
 |:---------:|:---------:|:---------:|:---------:|
 
-<!-- <table style="width: 100%; border-collapse: collapse;">  -->
-
-<table cellspacing="0" cellpadding="0">
+<table style="width: 100%; border-collapse: collapse;">
     <tr>
         <td style="text-align: center; vertical-align: middle; border: none;"><a href="https://github.com/PSModule/AzureDevOps">AzureDevOps</a></td>
         <td style="text-align: center; vertical-align: middle; border: none;"><a href="https://github.com/PSModule/AzureDevOps">AzureDevOps</a></td>
