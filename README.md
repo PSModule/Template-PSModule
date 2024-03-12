@@ -62,13 +62,7 @@ Here is a list of people and projects that helped this project in some way.
 - [Support](SUPPORT.md)
 - [License](LICENSE)
 
-<style>
-    .borderless td, .borderless th {
-        border: none;
-        text-align: center;
-    }
-</style>
-
+<style>.borderless td, .borderless th {border: none;text-align: center;}</style>
 <table class="borderless">
     <tr>
         <td>Content 1</td>
