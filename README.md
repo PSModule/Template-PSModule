@@ -65,10 +65,3 @@ You can either help by picking up an existing issue or submit a new one if you h
 ## Acknowledgements
 
 Here is a list of people and projects that helped this project in some way.
-
----
-
-- [Code of Conduct](CODE_OF_CONDUCT.md)
-- [Security Policy](SECURITY.md)
-- [Support](SUPPORT.md)
-- [License](LICENSE)
