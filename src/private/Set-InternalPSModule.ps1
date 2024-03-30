@@ -4,7 +4,7 @@
         Performs tests on a module.
 
         .EXAMPLE
-        Test-PSModule -Name 'World'
+        Set-InternalPSModule -Name 'World'
 
         "Hello, World!"
     #>

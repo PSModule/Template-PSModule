@@ -7,14 +7,14 @@ Param(
 
 Write-Verbose "Path to the module: [$Path]" -Verbose
 
-Describe 'PSModule' {
+Describe 'PSModuleTemplate' {
     Context 'Module' {
         It 'The module should be available' {
-            Get-Module -Name 'PSModule' -ListAvailable | Should -Not -BeNullOrEmpty
-            Write-Verbose (Get-Module -Name 'PSModule' -ListAvailable | Out-String) -Verbose
+            Get-Module -Name 'PSModuleTemplate' -ListAvailable | Should -Not -BeNullOrEmpty
+            Write-Verbose (Get-Module -Name 'PSModuleTemplate' -ListAvailable | Out-String) -Verbose
         }
         It 'The module should be importable' {
-            { Import-Module -Name 'PSModule' -Verbose -RequiredVersion 999.0.0 -Force } | Should -Not -Throw
+            { Import-Module -Name 'PSModuleTemplate' -Verbose -RequiredVersion 999.0.0 -Force } | Should -Not -Throw
         }
     }
 
