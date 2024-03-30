@@ -18,10 +18,10 @@ Describe 'PSModuleTemplate' {
         }
     }
 
-    Context "Function 'Test-PSModuleTest'" {
+    Context "Function 'Test-PSModuleTemplate'" {
         It 'Should be able to call the function' {
-            Test-PSModuleTest -Name 'World' | Should -Be 'Hello, World!'
-            Write-Verbose (Test-PSModuleTest -Name 'World' | Out-String) -Verbose
+            Test-PSModuleTemplate -Name 'World' | Should -Be 'Hello, World!'
+            Write-Verbose (Test-PSModuleTemplate -Name 'World' | Out-String) -Verbose
         }
     }
 }
