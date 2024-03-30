@@ -9,7 +9,7 @@
         "Hello, World!"
     #>
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute(
-        'PSUseShouldProcessForStateChangingFunctions', '', Scope='Function',
+        'PSUseShouldProcessForStateChangingFunctions', '', Scope = 'Function',
         Justification = 'Reason for suppressing'
     )]
     [CmdletBinding()]
