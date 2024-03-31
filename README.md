@@ -1,30 +1,32 @@
 # PSModuleTemplate
 
-Add a short description about the module and the project.
+A PowerShell module template that can be used to create new modules.
 
 ## Prerequisites
 
-List any prerequisites needed to use the module, such as PowerShell versions, additional modules, or permissions.
+This uses the following external resources:
+- The [PSModule framework](https://github.com/PSModule) for building, testing and publishing the module.
 
 ## Installation
 
-Provide step-by-step instructions on how to install the module, including any InstallModule commands or manual installation steps.
+To install the module from the PowerShell Gallery, you can use the following command:
 
 ```powershell
-Install-Module -Name YourModuleName
+Install-PSResource -Name YourModuleName
+Import-Module -Name YourModuleName
 ```
 
 ## Usage
 
 Here is a list of example that are typical use cases for the module.
-This section should provide a good overview of the module's capabilities.
 
-### Example 1
+### Example 1: Greet an entity
 
 Provide examples for typical commands that a user would like to do with the module.
 
 ```powershell
-Import-Module -Name PSModuleTemplate
+Greet-Entity -Name 'World'
+Hello, World!
 ```
 
 ### Example 2
