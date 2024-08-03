@@ -1,6 +1,6 @@
-# PSModuleTemplate
+# {{ NAME }}
 
-A PowerShell module template that can be used to create new modules.
+{{ DESCRIPTION }}
 
 ## Prerequisites
 
@@ -12,8 +12,8 @@ This uses the following external resources:
 To install the module from the PowerShell Gallery, you can use the following command:
 
 ```powershell
-Install-PSResource -Name YourModuleName
-Import-Module -Name YourModuleName
+Install-PSResource -Name {{ NAME }}
+Import-Module -Name {{ NAME }}
 ```
 
 ## Usage
