@@ -1,10 +1,10 @@
-﻿Function Set-PSModuleTemplate {
+﻿function Set-InternalPSModule {
     <#
         .SYNOPSIS
         Performs tests on a module.
 
         .EXAMPLE
-        Set-PSModuleTemplate -Name 'World'
+        Test-PSModule -Name 'World'
 
         "Hello, World!"
     #>

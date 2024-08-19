@@ -1,14 +1,17 @@
 ﻿Function Get-OtherPSModule {
     <#
         .SYNOPSIS
-        A brief description of the function
+        Performs tests on a module.
+
+        .DESCRIPTION
+        A longer description of the function.
 
         .EXAMPLE
-        Get-OtherPSModule -Name "World"
+        Get-OtherPSModule -Name 'World'
     #>
     [CmdletBinding()]
     param(
-        # The name of the person to greet.
+        # Name of the person to greet.
         [Parameter(Mandatory)]
         [string] $Name
     )

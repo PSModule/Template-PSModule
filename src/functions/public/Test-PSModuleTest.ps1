@@ -1,17 +1,13 @@
-﻿Function New-PSModuleTemplate {
+﻿function Test-PSModuleTest {
     <#
         .SYNOPSIS
         Performs tests on a module.
 
         .EXAMPLE
-        New-PSModuleTemplate -Name 'World'
+        Test-PSModule -Name 'World'
 
         "Hello, World!"
     #>
-    [Diagnostics.CodeAnalysis.SuppressMessageAttribute(
-        'PSUseShouldProcessForStateChangingFunctions', '', Scope = 'Function',
-        Justification = 'Reason for suppressing'
-    )]
     [CmdletBinding()]
     param (
         # Name of the person to greet.
