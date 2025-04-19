@@ -5,7 +5,7 @@
 ## Prerequisites
 
 This uses the following external resources:
-- The [PSModule framework](https://github.com/PSModule) for building, testing and publishing the module.
+- The [PSModule framework](https://github.com/PSModule/Process-PSModule) for building, testing and publishing the module.
 
 ## Installation
 
