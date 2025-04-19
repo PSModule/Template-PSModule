@@ -1,3 +1,9 @@
+# The '-{{ ... }}-'' are variables that are replaced during deployment, so no need to change.
+# Rest of the settings can be changed as per your requirements.
+#
+# References:
+# - https://squidfunk.github.io/mkdocs-material/setup/
+
 site_name: -{{ REPO_NAME }}-
 theme:
   name: material
