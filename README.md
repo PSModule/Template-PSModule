@@ -30,7 +30,3 @@ Use PowerShell help and command discovery for module details:
 Get-Command -Module {{ NAME }}
 Get-Help -Name CommandName -Examples
 ```
-
-## Contributing
-
-Issues and pull requests are welcome. Please use the repository issue tracker to report bugs, request features, or discuss improvements.
