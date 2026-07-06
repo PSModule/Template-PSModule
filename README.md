@@ -22,7 +22,7 @@ Get-Command -Module {{ NAME }}
 
 ## Documentation
 
-Documentation is published at [psmodule.io/{{ NAME }}](https://psmodule.io/{{ NAME }}/).
+Documentation is published at `https://psmodule.io/{{ NAME }}/`.
 
 Use PowerShell help and command discovery for module details:
 
