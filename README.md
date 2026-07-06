@@ -19,7 +19,7 @@ Use PowerShell help and command discovery for module details:
 
 ```powershell
 Get-Command -Module {{ NAME }}
-Get-Help <CommandName> -Examples
+Get-Help -Name CommandName -Examples
 ```
 
 ## Contributing
