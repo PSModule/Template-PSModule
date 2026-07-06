@@ -13,7 +13,7 @@ Import-Module -Name {{ NAME }}
 
 ## Capabilities
 
-Use this section to show the most important things the module makes possible. Keep it short and focused on discovery.
+Use this section to show the most important things the module makes possible. Keep it short: this is discovery and a first mental model, not the command reference.
 
 ```powershell
 # Replace this with a real example that demonstrates the module's value.
