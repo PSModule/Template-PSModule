@@ -11,6 +11,15 @@ Install-PSResource -Name {{ NAME }}
 Import-Module -Name {{ NAME }}
 ```
 
+## Capabilities
+
+Use this section to show the most important things the module makes possible. Keep it short and focused on discovery.
+
+```powershell
+# Replace this with a real example that demonstrates the module's value.
+Get-Command -Module {{ NAME }}
+```
+
 ## Documentation
 
 Documentation is published at [psmodule.io/{{ NAME }}](https://psmodule.io/{{ NAME }}/).
