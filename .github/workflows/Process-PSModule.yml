@@ -30,3 +30,14 @@ jobs:
     uses: PSModule/Process-PSModule/.github/workflows/workflow.yml@ea19a3eb1293246d1b00e4faae1544442c3be0ec # v6.1.1
     secrets:
       APIKEY: ${{ secrets.APIKEY }}
+      # Showcase: send data down to the module tests (see tests/Environment.Tests.ps1).
+      # TestData is a single-line JSON object with optional "secrets" (masked in logs) and
+      # "variables" (not masked) maps. Every entry is exposed to the module test jobs as
+      # $env:<name>. Reference a repository secret with the direct "${{ secrets.NAME }}"
+      # form (single-line values, no quotes or backslashes) and a repository variable with
+      # ${{ toJSON(vars.NAME) }} so any characters are encoded safely. The folded ">-" scalar
+      # keeps the whole value on one line so GitHub registers a single log mask. Omit
+      # TestData entirely when your tests need no data.
+      TestData: >-
+        { "secrets": { "TEST_SECRET": "${{ secrets.TEST_SECRET }}" },
+        "variables": { "TEST_VARIABLE": ${{ toJSON(vars.TEST_VARIABLE) }} } }
