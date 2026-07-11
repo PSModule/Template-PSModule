@@ -31,5 +31,11 @@ jobs:
     secrets:
       APIKEY: ${{ secrets.APIKEY }}
       TestData: >-
-        { "secrets": { "TEST_SECRET": "${{ secrets.TEST_SECRET }}" },
-        "variables": { "TEST_VARIABLE": ${{ toJSON(vars.TEST_VARIABLE) }} } }
+        {
+          "secrets": {
+            "TEST_SECRET": "${{ secrets.TEST_SECRET }}"
+          },
+          "variables": {
+            "TEST_VARIABLE": "${{ vars.TEST_VARIABLE }}"
+          }
+        }

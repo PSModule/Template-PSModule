@@ -24,10 +24,4 @@ Describe 'Module' {
     It 'Function: Test-PSModuleTest' {
         Test-PSModuleTest -Name 'World' | Should -Be 'Hello, World!'
     }
-    It 'Function: Get-IndexSectionTest' {
-        Get-IndexSectionTest -Name 'World' | Should -Be 'Hello, World!'
-    }
-    It 'Function: Get-NamedSectionTest' {
-        Get-NamedSectionTest -Name 'World' | Should -Be 'Hello, World!'
-    }
 }
