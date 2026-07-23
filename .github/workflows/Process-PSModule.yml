@@ -30,12 +30,3 @@ jobs:
     uses: PSModule/Process-PSModule/.github/workflows/workflow.yml@da180bac16b13bfbcdf08b2e4e221b5b49e5ff28 # v6.1.4
     secrets:
       APIKEY: ${{ secrets.APIKEY }}
-      TestData: >-
-        {
-          "secrets": {
-            "TEST_SECRET": "${{ secrets.TEST_SECRET }}"
-          },
-          "variables": {
-            "TEST_VARIABLE": "${{ vars.TEST_VARIABLE }}"
-          }
-        }
