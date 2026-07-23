@@ -29,15 +29,15 @@ toggle.name = "Switch to dark mode"
 media = "(prefers-color-scheme: dark)"
 scheme = "slate"
 primary = "black"
-accent = "green"
+accent = "light-blue"
 toggle.icon = "lucide/moon"
 toggle.name = "Switch to light mode"
 
 [[project.theme.palette]]
 media = "(prefers-color-scheme: light)"
 scheme = "default"
-primary = "indigo"
-accent = "green"
+primary = "black"
+accent = "light-blue"
 toggle.icon = "lucide/sun"
 toggle.name = "Switch to system preference"
 
