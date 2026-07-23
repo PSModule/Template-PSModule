@@ -1,4 +1,4 @@
-﻿function Test-PSModuleTest {
+function Get-PSModuleTest {
     <#
         .SYNOPSIS
         Performs tests on a module.
@@ -7,7 +7,7 @@
         Performs tests on a module.
 
         .EXAMPLE
-        Test-PSModule -Name 'World'
+        Get-PSModuleTest -Name 'World'
 
         "Hello, World!"
     #>
@@ -17,5 +17,5 @@
         [Parameter(Mandatory)]
         [string] $Name
     )
-    Write-Output "Hello, $Name!"
+    "Hello, $Name!"
 }

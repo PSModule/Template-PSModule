@@ -12,7 +12,7 @@ For step-by-step instructions, see the [template quickstart](https://psmodule.gi
 ## After creating a repository from this template
 
 1. Replace the `{{ NAME }}` and `{{ DESCRIPTION }}` placeholders throughout the repository.
-2. Remove the scaffold example functions, tests, and examples that do not represent your module.
+2. Replace the starter function, test, and example with your module's first real command.
 3. Set the repository description and custom properties on GitHub.
 4. Confirm `.github/PSModule.yml` only overrides defaults when your module needs different behavior.
 5. Open a draft pull request and run the full CI pipeline.
