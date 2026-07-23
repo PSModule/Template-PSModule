@@ -55,7 +55,7 @@ permalink = true
 
 [[project.extra.social]]
 icon = "fontawesome/brands/discord"
-link = "https://discord.gg/jedJWCPAhD"
+link = "https://discord.psmodule.io"
 name = "-{{ REPO_OWNER }}- on Discord"
 
 [[project.extra.social]]
