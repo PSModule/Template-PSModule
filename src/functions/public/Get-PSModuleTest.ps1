@@ -11,6 +11,7 @@ function Get-PSModuleTest {
 
         "Hello, World!"
     #>
+    [OutputType([string])]
     [CmdletBinding()]
     param (
         # Name of the person to greet.
