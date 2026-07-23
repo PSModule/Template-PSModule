@@ -1,6 +1,6 @@
-<﻿<#
-  .SYNOPSIS
-    Basic module usage example.
+<#
+    .SYNOPSIS
+        Basic module usage example.
 #>
 
 Import-Module -Name '{{ NAME }}'
