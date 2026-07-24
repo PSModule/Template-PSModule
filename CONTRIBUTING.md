@@ -1,19 +1,12 @@
 # Contributing
 
-Thank you for contributing to `Template-PSModule`.
-This file describes how to work on the template itself — not how to use it.
-If you want to create a new module from this template, see the [template quickstart](https://psmodule.github.io/docs/Modules/Process-PSModule/template-quickstart/).
-
-## What this repository is
-
-`Template-PSModule` is the canonical starting template for new PowerShell modules in the PSModule organization.
-Changes to this repository affect every module created from it going forward.
-Keep changes focused: structural layout, required community files, CI/CD wiring, and framework defaults.
+Thank you for contributing to this module.
+Read [`AGENTS.md`](AGENTS.md) first for the full guidance chain and documentation references.
 
 ## Before you start
 
-1. Read [`AGENTS.md`](AGENTS.md) for the guidance chain and documentation references.
-2. Familiarise yourself with the [repository defaults](https://psmodule.github.io/docs/Modules/Repository-Defaults/) that this template must satisfy.
+1. Read [`README.md`](README.md) to understand what the module does.
+2. Familiarise yourself with the [repository defaults](https://psmodule.github.io/docs/Modules/Repository-Defaults/) that this repository must satisfy.
 3. Check the open issues and pull requests to avoid duplicate work.
 
 ## Workflow
@@ -38,12 +31,12 @@ For PR format guidance, see [PR Format](https://msxorg.github.io/docs/Ways-of-Wo
 
 ## Issues
 
-Use GitHub Issues to report bugs, request features, or propose template changes.
+Use GitHub Issues to report bugs, request features, or propose improvements.
 Follow the [issue format](https://msxorg.github.io/docs/Ways-of-Working/Issue-Format/) guidance.
 
 ## Code standards
 
-PowerShell in this template follows the [PSModule Standards](https://psmodule.github.io/docs/Modules/Standards/) and the
+PowerShell in this module follows the [PSModule Standards](https://psmodule.github.io/docs/Modules/Standards/) and the
 [MSXOrg Coding Standards](https://msxorg.github.io/docs/Coding-Standards/).
 
 ## Questions
