@@ -13,10 +13,12 @@ function Get-PSModuleTest {
         Hello, World!
 
         .INPUTS
-        None. You can't pipe objects to Get-PSModuleTest.
+        None
+            You can't pipe objects to Get-PSModuleTest.
 
         .OUTPUTS
-        System.String. A greeting string for the given name.
+        System.String
+            A greeting string for the given name.
     #>
     [OutputType([string])]
     [CmdletBinding()]
