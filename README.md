@@ -1,69 +1,29 @@
-# {{ NAME }}
+# Template-PSModule
 
-{{ DESCRIPTION }}
+The canonical starting template for new PowerShell modules in the PSModule organization.
+
+## Purpose
+
+Use this template when creating a new PowerShell module repository.
+It provides the CI/CD framework wiring, required community files, and starter layout that every PSModule module repository needs.
+
+For step-by-step instructions, see the [template quickstart](https://psmodule.github.io/docs/Modules/Process-PSModule/template-quickstart/).
+
+## After creating a repository from this template
+
+1. Replace the `{{ NAME }}` and `{{ DESCRIPTION }}` placeholders throughout the repository.
+2. Replace the starter function, test, and example with your module's first real command.
+3. Set the repository description and custom properties on GitHub.
+4. Confirm `.github/PSModule.yml` only overrides defaults when your module needs different behavior.
+5. Open a draft pull request and run the full CI pipeline.
+
+See [repository defaults](https://psmodule.github.io/docs/Modules/Repository-Defaults/) for the full checklist.
 
 ## Prerequisites
 
-This uses the following external resources:
-- The [PSModule framework](https://github.com/PSModule/Process-PSModule) for building, testing and publishing the module.
-
-## Installation
-
-To install the module from the PowerShell Gallery, you can use the following command:
-
-```powershell
-Install-PSResource -Name {{ NAME }}
-Import-Module -Name {{ NAME }}
-```
-
-## Usage
-
-Here is a list of example that are typical use cases for the module.
-
-### Example 1: Greet an entity
-
-Provide examples for typical commands that a user would like to do with the module.
-
-```powershell
-Greet-Entity -Name 'World'
-Hello, World!
-```
-
-### Example 2
-
-Provide examples for typical commands that a user would like to do with the module.
-
-```powershell
-Import-Module -Name PSModuleTemplate
-```
-
-### Find more examples
-
-To find more examples of how to use the module, please refer to the [examples](examples) folder.
-
-Alternatively, you can use the Get-Command -Module 'This module' to find more commands that are available in the module.
-To find examples of each of the commands you can use Get-Help -Examples 'CommandName'.
-
-## Documentation
-
-Link to further documentation if available, or describe where in the repository users can find more detailed documentation about
-the module's functions and features.
+Modules built from this template use the [PSModule framework](https://github.com/PSModule/Process-PSModule) for building, testing, and publishing.
 
 ## Contributing
 
-Coder or not, you can contribute to the project! We welcome all contributions.
-
-### For Users
-
-If you don't code, you still sit on valuable information that can make this project even better. If you experience that the
-product does unexpected things, throw errors or is missing functionality, you can help by submitting bugs and feature requests.
-Please see the issues tab on this project and submit a new issue that matches your needs.
-
-### For Developers
-
-If you do code, we'd love to have your contributions. Please read the [Contribution guidelines](CONTRIBUTING.md) for more information.
-You can either help by picking up an existing issue or submit a new one if you have an idea for a new feature or improvement.
-
-## Acknowledgements
-
-Here is a list of people and projects that helped this project in some way.
+To contribute to this template itself, read the [Contribution guidelines](CONTRIBUTING.md).
+For agents and AI tools, start with [`AGENTS.md`](AGENTS.md).
