@@ -13,10 +13,10 @@ function Get-PSModuleTest {
         Hello, World!
 
         .INPUTS
-        None. This function does not accept pipeline input.
+        None. You can't pipe objects to Get-PSModuleTest.
 
         .OUTPUTS
-        [string] A greeting string.
+        System.String. A greeting string for the given name.
     #>
     [OutputType([string])]
     [CmdletBinding()]
