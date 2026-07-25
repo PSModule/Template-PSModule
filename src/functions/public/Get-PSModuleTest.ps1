@@ -15,8 +15,12 @@ function Get-PSModuleTest {
         .INPUTS
         None
 
+        You cannot pipe objects to this function.
+
         .OUTPUTS
         System.String
+
+        A greeting string for the given name.
     #>
     [OutputType([string])]
     [CmdletBinding()]
