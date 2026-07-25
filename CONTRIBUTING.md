@@ -17,7 +17,8 @@ This project follows the [MSXOrg contribution workflow](https://msxorg.github.io
 2. Create a branch from `main` following the `<type>/<issue>-<short-slug>` convention (e.g. `feat/42-add-security-md`).
 3. Make small, focused commits and push often.
 4. Open a **draft PR** as soon as the change has a basic shape — early feedback is preferred.
-5. Mark the PR ready for review once CI is green and the change is complete.
+5. Run the **Copilot review loop**: request a Copilot review, address its feedback, and repeat until it reports a clean round. File an issue for any out-of-scope findings rather than expanding the PR.
+6. Mark the PR ready for review and enable auto-merge. It lands automatically once the required checks pass and a reviewer approves.
 
 For branching details, see [Branching and Merging](https://msxorg.github.io/docs/Ways-of-Working/Branching-and-Merging/).
 
@@ -25,7 +26,6 @@ For branching details, see [Branching and Merging](https://msxorg.github.io/docs
 
 - Keep PRs small and focused on a single deliverable.
 - The PR title should follow the [commit conventions](https://msxorg.github.io/docs/Ways-of-Working/Commit-Conventions/).
-- Auto-merge is enabled; the PR lands as soon as all required checks pass and a reviewer approves.
 
 For PR format guidance, see [PR Format](https://msxorg.github.io/docs/Ways-of-Working/PR-Format/).
 
