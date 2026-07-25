@@ -20,6 +20,7 @@ For PSModule-specific build, layout, and process guidance:
 - [Module anatomy](https://psmodule.github.io/docs/Modules/Process-PSModule/module-anatomy/) — source layout and framework conventions.
 - [Build, test, pack, publish](https://psmodule.github.io/docs/Modules/Process-PSModule/build-test-pack-publish/) — the CI/CD pipeline.
 - [Standards](https://psmodule.github.io/docs/Modules/Standards/) — PowerShell module coding standards.
+- [PSModule/memory](https://github.com/PSModule/memory) — durable cross-session agent working memory for the PSModule organization.
 
 ## Org-wide guidance
 
@@ -28,3 +29,4 @@ For cross-cutting ways of working and standards:
 - [Agentic Development](https://msxorg.github.io/docs/Ways-of-Working/Agentic-Development/) — how agents and humans collaborate in this ecosystem.
 - [Ways of Working](https://msxorg.github.io/docs/Ways-of-Working/) — contribution workflow, branching, PRs, issues.
 - [Coding Standards](https://msxorg.github.io/docs/Coding-Standards/) — language-level conventions.
+- [MSXOrg/memory](https://github.com/MSXOrg/memory) — durable agent working memory: gotchas, knowledge, and agent role notes.
