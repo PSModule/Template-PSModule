@@ -32,7 +32,7 @@ For PR format guidance, see [PR Format](https://msxorg.github.io/docs/Ways-of-Wo
 ## Issues
 
 Use GitHub Issues to report bugs, request features, or propose improvements.
-Follow the [issue format](https://msxorg.github.io/docs/Ways-of-Working/Issue-Format/) guidance.
+Follow the [issue format](https://msxorg.github.io/docs/Ways-of-Working/Issues/Process/Format/) guidance.
 
 ## Code standards
 
