@@ -17,7 +17,7 @@ For step-by-step instructions, see the [template quickstart](https://psmodule.gi
 4. Confirm `.github/PSModule.yml` only overrides defaults when your module needs different behavior.
 5. Open a draft pull request and run the full CI pipeline.
 
-See [repository defaults](https://psmodule.github.io/docs/Modules/Repository-Defaults/) for the full checklist.
+See [repository standard](https://psmodule.io/docs/Modules/Repository-Standard/) for the full checklist.
 
 ## Prerequisites
 

@@ -6,7 +6,7 @@ Read [`AGENTS.md`](AGENTS.md) first for the full guidance chain and documentatio
 ## Before you start
 
 1. Read [`README.md`](README.md) to understand what the module does.
-2. Familiarise yourself with the [repository defaults](https://psmodule.github.io/docs/Modules/Repository-Defaults/) that this repository must satisfy.
+2. Familiarise yourself with the [repository standard](https://psmodule.io/docs/Modules/Repository-Standard/) that this repository must satisfy.
 3. Check the open issues and pull requests to avoid duplicate work.
 
 ## Workflow
