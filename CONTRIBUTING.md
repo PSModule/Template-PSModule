@@ -36,7 +36,7 @@ Follow the [issue format](https://msxorg.github.io/docs/Ways-of-Working/Issue-Fo
 
 ## Code standards
 
-PowerShell in this module follows the [PSModule Standards](https://psmodule.github.io/docs/Modules/Standards/) and the
+PowerShell in this module follows the [PSModule Standards](https://psmodule.io/docs/Modules/Standards/) and the
 [MSXOrg Coding Standards](https://msxorg.github.io/docs/Coding-Standards/).
 
 ## Questions
