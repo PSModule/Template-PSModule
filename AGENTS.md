@@ -15,18 +15,18 @@ If you find a problem or improvement, fix if small; otherwise open an issue.
 Regarding repo structure, module source code and how the Process-PSModule workflow works.
 For PSModule-specific build, layout, and process guidance:
 
-- [Template quickstart](https://psmodule.github.io/docs/Modules/Process-PSModule/template-quickstart/) — how to create a new module from this template.
-- [Repository defaults](https://psmodule.github.io/docs/Modules/Repository-Defaults/) — the expected repository layout and required files.
-- [Module anatomy](https://psmodule.github.io/docs/Modules/Process-PSModule/module-anatomy/) — source layout and framework conventions.
-- [Build, test, pack, publish](https://psmodule.github.io/docs/Modules/Process-PSModule/build-test-pack-publish/) — the CI/CD pipeline.
-- [Standards](https://psmodule.github.io/docs/Modules/Standards/) — PowerShell module coding standards.
-- [PSModule/memory](https://github.com/PSModule/memory) — durable cross-session agent working memory for the PSModule organization.
+- [Get started](https://psmodule.io/Process-PSModule/get-started/) — how to create a new module from this template.
+- [Repository Standard](https://psmodule.io/Process-PSModule/reference/repository-standard/) — the expected repository layout and required files.
+- [Structuring your module](https://psmodule.io/Process-PSModule/guides/structuring-your-module/) — source layout and framework conventions.
+- [Pipeline stages](https://psmodule.io/Process-PSModule/reference/pipeline-stages/) — the CI/CD pipeline.
+- [PowerShell module standard](https://psmodule.io/Process-PSModule/reference/powershell-module-standard/) — PowerShell module coding standards.
+- [PSModule/memory](https://github.com/PSModule/memory) — durable cross-session agent working memory for the PSModule organization. This repository is private.
 
 ## Org-wide guidance
 
 For cross-cutting ways of working and standards:
 
-- [Agentic Development](https://msxorg.github.io/docs/Ways-of-Working/Agentic-Development/) — how agents and humans collaborate in this ecosystem.
-- [Ways of Working](https://msxorg.github.io/docs/Ways-of-Working/) — contribution workflow, branching, PRs, issues.
-- [Coding Standards](https://msxorg.github.io/docs/Coding-Standards/) — language-level conventions.
-- [MSXOrg/memory](https://github.com/MSXOrg/memory) — durable agent working memory: gotchas, knowledge, and agent role notes.
+- [Agentic Development](https://msx.no/docs/Capabilities/agentic-development/) — how agents and humans collaborate in this ecosystem.
+- [Ways of Working](https://msx.no/docs/Ways-of-Working/) — contribution workflow, branching, PRs, issues.
+- [Coding Standards](https://msx.no/docs/Coding-Standards/) — language-level conventions.
+- [MSXOrg/memory](https://github.com/MSXOrg/memory) — durable agent working memory: gotchas, knowledge, and agent role notes. This repository is private.
