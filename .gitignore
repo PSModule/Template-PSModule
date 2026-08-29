@@ -16,3 +16,6 @@ outputs/*
 bin/
 obj/
 libs/
+
+# Pester code coverage report written to the working directory by a local test run
+coverage.xml
