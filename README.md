@@ -7,7 +7,7 @@ The canonical starting template for new PowerShell modules in the PSModule organ
 Use this template when creating a new PowerShell module repository.
 It provides the CI/CD framework wiring, required community files, and starter layout that every PSModule module repository needs.
 
-For step-by-step instructions, see the [template quickstart](https://psmodule.github.io/docs/Modules/Process-PSModule/template-quickstart/).
+For step-by-step instructions, see the [template quickstart](https://psmodule.io/docs/Modules/Process-PSModule/template-quickstart/).
 
 ## After creating a repository from this template
 
@@ -17,7 +17,7 @@ For step-by-step instructions, see the [template quickstart](https://psmodule.gi
 4. Confirm `.github/PSModule.yml` only overrides defaults when your module needs different behavior.
 5. Open a draft pull request and run the full CI pipeline.
 
-See [repository defaults](https://psmodule.github.io/docs/Modules/Repository-Defaults/) for the full checklist.
+See [repository standard](https://psmodule.io/docs/Modules/Repository-Standard/) for the full checklist.
 
 ## Prerequisites
 
