@@ -20,6 +20,7 @@ features = [
   "content.code.copy",
   "content.tooltips",
   "navigation.footer",
+  "navigation.indexes",
   "navigation.instant",
   "navigation.instant.prefetch",
   "navigation.instant.preview",
