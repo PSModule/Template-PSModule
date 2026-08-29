@@ -25,5 +25,5 @@ Modules built from this template use the [PSModule framework](https://github.com
 
 ## Contributing
 
-To contribute to this template itself, read the [Contribution guidelines](CONTRIBUTING.md).
+To contribute to this template itself, read the [contribution guidelines](.github/CONTRIBUTING.md).
 For agents and AI tools, start with [`AGENTS.md`](AGENTS.md).

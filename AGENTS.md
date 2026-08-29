@@ -8,7 +8,7 @@ If you find a problem or improvement, fix if small; otherwise open an issue.
 ## Repo guidance
 
 - [`README.md`](README.md) — what this repository is and its purpose as a template.
-- [`CONTRIBUTING.md`](CONTRIBUTING.md) — how to contribute to this repository.
+- [`.github/CONTRIBUTING.md`](.github/CONTRIBUTING.md) — how to contribute to this repository.
 
 ## PSModule Framework guidance
 
