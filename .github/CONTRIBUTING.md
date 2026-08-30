@@ -1,7 +1,8 @@
 # Contributing
 
 Thank you for investing your time in contributing to this module.
-Read the [Code of Conduct](CODE_OF_CONDUCT.md) before participating, and read
+Read the [PSModule Code of Conduct](https://github.com/PSModule/.github/blob/main/.github/CODE_OF_CONDUCT.md)
+before participating, and read
 [`AGENTS.md`](../AGENTS.md) for the full guidance chain and documentation references.
 
 ## Before you start
@@ -42,4 +43,6 @@ and the [MSX coding standards](https://msx.no/docs/Coding-Standards/).
 
 ## Questions
 
-Follow the repository's [support guidance](SUPPORT.md).
+Follow the [PSModule support guidance](https://github.com/PSModule/.github/blob/main/.github/SUPPORT.md).
+Report vulnerabilities through the
+[PSModule security policy](https://github.com/PSModule/.github/blob/main/.github/SECURITY.md).
