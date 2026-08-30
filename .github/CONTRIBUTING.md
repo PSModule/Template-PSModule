@@ -1,13 +1,13 @@
 # Contributing
 
-Thank you for investing your time in contributing to this module.
+Thank you for investing your time in contributing to this repository.
 Read the [PSModule Code of Conduct](https://github.com/PSModule/.github/blob/main/.github/CODE_OF_CONDUCT.md)
 before participating, and read
 [`AGENTS.md`](../AGENTS.md) for the full guidance chain and documentation references.
 
 ## Before you start
 
-1. Read [`README.md`](../README.md) to understand what the module does.
+1. Read [`README.md`](../README.md) to understand the repository's purpose.
 2. Familiarize yourself with the [repository standard](https://psmodule.io/Process-PSModule/reference/repository-standard/).
 3. Check the open issues and pull requests to avoid duplicate work.
 
@@ -37,7 +37,7 @@ Follow the [issue format](https://msx.no/docs/Ways-of-Working/Issues/Process/For
 
 ## Code standards
 
-PowerShell in this module follows the
+PowerShell in this repository follows the
 [PSModule PowerShell module standard](https://psmodule.io/Process-PSModule/reference/powershell-module-standard/)
 and the [MSX coding standards](https://msx.no/docs/Coding-Standards/).
 
