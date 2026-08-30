@@ -6,5 +6,7 @@ Read in this order:
    - what this repository is and what it contains
 2. [`.github/CONTRIBUTING.md`](.github/CONTRIBUTING.md)
    - how a change is made and reviewed
-3. [Process-PSModule documentation](https://psmodule.io/Process-PSModule/)
+3. [MSXOrg documentation](https://msx.no/docs/)
+   - central ways of working and coding standards
+4. [Process-PSModule documentation](https://psmodule.io/Process-PSModule/)
    - repository structure, module standards, and build/test/pack/publish guidance
