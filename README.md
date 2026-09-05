@@ -5,7 +5,9 @@ The canonical starting template for new PowerShell modules in the PSModule organ
 ## Purpose
 
 Use this template when creating a new PowerShell module repository.
-It provides the CI/CD framework wiring, required community files, and starter layout that every PSModule module repository needs.
+It provides the CI/CD framework wiring, repository contribution guidance, and starter layout that every PSModule module repository needs.
+Code of Conduct, security, and support policies are inherited from [`PSModule/.github`](https://github.com/PSModule/.github).
+Process-PSModule owns release generation, so the template does not include GitHub generated-release-notes configuration.
 
 For step-by-step instructions, see the [template quickstart](https://psmodule.github.io/docs/Modules/Process-PSModule/template-quickstart/).
 
@@ -25,5 +27,5 @@ Modules built from this template use the [PSModule framework](https://github.com
 
 ## Contributing
 
-To contribute to this template itself, read the [Contribution guidelines](CONTRIBUTING.md).
+To contribute to this template itself, read the [contribution guidelines](.github/CONTRIBUTING.md).
 For agents and AI tools, start with [`AGENTS.md`](AGENTS.md).
