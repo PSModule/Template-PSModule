@@ -1,6 +1,5 @@
 * text=auto eol=lf
 
-*.mof   text eol=crlf
 *.sh    text eol=lf
 *.svg   eol=lf
 
