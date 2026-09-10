@@ -1,8 +1,5 @@
 * text=auto eol=lf
 
-*.sh    text eol=lf
-*.svg   eol=lf
-
 # Ensure any exe files are treated as binary
 *.exe binary
 *.jpg binary
