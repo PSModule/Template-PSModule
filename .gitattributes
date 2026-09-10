@@ -1,4 +1,3 @@
-# Needed for publishing of examples, build worker defaults to core.autocrlf=input.
 * text eol=autocrlf
 
 *.mof   text eol=crlf
