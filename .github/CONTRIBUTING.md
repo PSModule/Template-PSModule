@@ -1,12 +1,9 @@
 # Contributing
 
+Read the [README](../README.md) to understand this repository.
+
 Follow the central [MSX contribution workflow](https://msx.no/docs/Ways-of-Working/Contribution-Workflow/)
-for how to select work, create a branch, make commits, open a draft pull request, request review,
-and merge changes. Use the [MSX Ways of Working](https://msx.no/docs/Ways-of-Working/) for the
-shared issue, branching, commit, pull request, and review conventions.
+and [MSX Ways of Working](https://msx.no/docs/Ways-of-Working/) for shared contribution guidance.
 
-Use the Process-PSModule documentation for repository-specific standards:
-
-- [Repository Standard](https://psmodule.io/Process-PSModule/reference/repository-standard/)
-- [PowerShell module standard](https://psmodule.io/Process-PSModule/reference/powershell-module-standard/)
-- [Validating before review](https://psmodule.io/Process-PSModule/guides/validating-before-review/)
+For framework-specific guidance, review the
+[Process-PSModule documentation](https://psmodule.io/Process-PSModule/).
