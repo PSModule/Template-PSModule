@@ -9,7 +9,7 @@ It provides the CI/CD framework wiring, repository contribution guidance, and st
 Code of Conduct, security, and support policies are inherited from [`PSModule/.github`](https://github.com/PSModule/.github).
 Process-PSModule owns release generation, so the template does not include GitHub generated-release-notes configuration.
 
-For step-by-step instructions, see the [template quickstart](https://psmodule.github.io/docs/Modules/Process-PSModule/template-quickstart/).
+For step-by-step instructions, see the [template quickstart](https://psmodule.io/Process-PSModule/).
 
 ## After creating a repository from this template
 
@@ -19,7 +19,7 @@ For step-by-step instructions, see the [template quickstart](https://psmodule.gi
 4. Confirm `.github/PSModule.yml` only overrides defaults when your module needs different behavior.
 5. Open a draft pull request and run the full CI pipeline.
 
-See [repository defaults](https://psmodule.github.io/docs/Modules/Repository-Defaults/) for the full checklist.
+See [repository defaults](https://psmodule.io/Process-PSModule/) for the full checklist.
 
 ## Prerequisites
 
