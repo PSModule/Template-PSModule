@@ -9,13 +9,14 @@
 # Local History for Visual Studio Code
 .history/*
 
+# PSModule-based files
 # PSModule framework outputs folder
 outputs/*
+
+# Pester code coverage report written to the working directory by a local test run
+coverage.xml
 
 # .Net build output
 bin/
 obj/
 libs/
-
-# Pester code coverage report written to the working directory by a local test run
-coverage.xml
