@@ -2,5 +2,5 @@
 
 The canonical starting template for new PowerShell modules in the PSModule organization.
 
-For setup, security and support policies, release-note generation, and framework guidance, see the
+For setup, read the framework guidance in the
 [Process-PSModule documentation](https://psmodule.io/Process-PSModule/).
