@@ -1,4 +1,4 @@
-﻿#Requires -Modules @{ ModuleName = 'Pester'; ModuleVersion = '6.0.0'; MaximumVersion = '6.*' }
+﻿#Requires -Modules @{ ModuleName = 'Pester'; ModuleVersion = '6.1.0'; MaximumVersion = '6.*' }
 
 [Diagnostics.CodeAnalysis.SuppressMessageAttribute(
     'PSReviewUnusedParameter', '',
@@ -13,6 +13,6 @@ param()
 
 Describe 'Module' {
     It 'Function: Get-PSModuleTest' {
-        Get-PSModuleTest -Name 'World' | Should -Be 'Hello, World!'
+        Get-PSModuleTest -Name 'World' | Should-Be 'Hello, World!'
     }
 }

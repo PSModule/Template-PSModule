@@ -14,6 +14,8 @@ MD007:
 MD013:
   line_length: 808 # Line length
 MD024: false # no-duplicate-heading, INPUTS and OUTPUTS _can_ be the same item
+MD025:
+  front_matter_title: '' # Allow a body H1 alongside the front matter title
 MD026:
   punctuation: '.,;:!。，；:' # List of not allowed
 MD029: false # Ordered list item prefix

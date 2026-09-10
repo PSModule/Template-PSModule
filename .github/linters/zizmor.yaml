@@ -1,0 +1,5 @@
+rules:
+  unpinned-uses:
+    config:
+      policies:
+        PSModule/Process-PSModule/.github/workflows/workflow.yml: ref-pin

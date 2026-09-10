@@ -21,6 +21,12 @@ function Get-PSModuleTest {
         System.String
 
         A greeting string for the given name.
+
+        .NOTES
+        This scaffold function is intended to be replaced with the module's first real command.
+
+        .LINK
+        https://psmodule.io/Template-PSModule/Functions/Get-PSModuleTest/
     #>
     [OutputType([string])]
     [CmdletBinding()]
