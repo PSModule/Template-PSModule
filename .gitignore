@@ -9,8 +9,8 @@
 # Local History for Visual Studio Code
 .history/*
 
-# PSModule framework outputs folder
-outputs/*
+# PSModule-generated files
+/.PSModule/
 
 # .Net build output
 bin/
