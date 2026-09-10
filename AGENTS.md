@@ -6,3 +6,4 @@ Read in this order:
    - what this repository is and what it contains
 2. [`.github/CONTRIBUTING.md`](.github/CONTRIBUTING.md)
    - how a change is made and reviewed
+   - how to understand the contribution process and applicable standards
