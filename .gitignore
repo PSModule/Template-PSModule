@@ -10,7 +10,7 @@
 .history/*
 
 # PSModule-generated files
-.PSModule/
+/.PSModule/
 
 # .Net build output
 bin/
